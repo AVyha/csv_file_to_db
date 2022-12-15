@@ -9,6 +9,7 @@ git clone https://github.com/AVyha/csv_file_to_db.git
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+python manage.py migrate
 ```
 
 ## How to use
